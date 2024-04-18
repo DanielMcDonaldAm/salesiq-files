@@ -1,0 +1,112 @@
+.siq-message {
+  direction: rtl;
+}
+
+.zsiq_floatmain {
+  z-index: 968 !important;
+}
+
+.msgbx {
+  direction: rtl;
+}
+
+.siqc_duration {
+  color: #000;
+  font-size: 11px;
+  text-align: left;
+  position: absolute;
+  left: 15px;
+  z-index: 1;
+  font-weight: 400;
+  top: 27px;
+}
+
+.zsiq_theme11 {
+  bottom: 48px !important;
+}
+
+#chatarea {
+  direction: rtl;
+}
+
+.chat-close-btn {
+  position: absolute;
+  top: 65px;
+  right: 74px;
+  cursor: pointer;
+  z-index: 997;
+  background-color: rgb(85, 147, 80);
+  border: none;
+  font-size: 13px;
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bc-custom-toast {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s linear;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(85, 147, 80);
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 16px;
+  position: fixed;
+  z-index: 999;
+  left: calc(50% - 32px);
+  bottom: 48px;
+  font-size: 17px;
+}
+
+.bc-custom-progressbar {
+  background-color: white;
+  height: 5px;
+  width: 100%;
+  transition: width 4.5s linear;
+}
+
+#conversationoption {
+  text-align: right !important;
+}
+
+div[data-id="zsalesiq"] {
+  bottom: 48px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  div.zw-contentpane p span {
+    width: 100% !important;
+  }
+
+  div.zw-contentpane p span img {
+    width: 100% !important;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .zfaq-title {
+    white-space: unset !important;
+  }
+
+  .zsiq-prev-header p {
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 900;
+    text-align: center !important;
+  }
+
+  .zsiq-prev-content * {
+    padding: 1px;
+  }
+
+  #zsiqfaqpreview {
+    border: solid 1px gray;
+  }
+}
