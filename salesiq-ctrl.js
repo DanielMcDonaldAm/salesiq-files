@@ -15,7 +15,7 @@ try {
     }
 
     const url =
-      "https://dl.dropboxusercontent.com/scl/fi/yehyj90ow5fuatfx9ff1u/saleiq.css?rlkey=4nbtxa5qrwoi4oaubft9eot50&dl=0";
+      "https://raw.githubusercontent.com/DanielMcDonaldAm/salesiq-files/main/salesiq.css?v=1";
     var link = document.createElement("link");
 
     // Set the attributes for the link element
