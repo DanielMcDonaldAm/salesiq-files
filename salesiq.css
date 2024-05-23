@@ -2,6 +2,11 @@
   direction: rtl;
 }
 
+.siq-popup {
+    bottom: 81px;
+    left: 10px;
+}
+
 .zsiq_floatmain {
   z-index: 968 !important;
 }
