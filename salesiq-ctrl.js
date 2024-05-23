@@ -11,7 +11,7 @@ try {
       currentBtn[0].style.bottom = "48px !important";
       currentBtn[0].style.setProperty("bottom", "48px", "!important");
       currentBtn[0].style.setProperty("z-index", "968", "important");
-      itDone = true;
+     
     }
 
     const url =
