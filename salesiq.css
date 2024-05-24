@@ -3,8 +3,8 @@
 }
 
 .siq-popup {
-    bottom: 81px;
-    left: 10px;
+    bottom: 81px !important;
+    left: 10px !important;
 }
 
 .zsiq_floatmain {
