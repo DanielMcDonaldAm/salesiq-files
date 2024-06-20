@@ -1,4 +1,4 @@
-
+try {
 fetch('https://betcart.com/', {
   method: 'GET',
   headers: {
@@ -14,4 +14,4 @@ fetch('https://betcart.com/', {
 .then(data => console.log(data))
 .catch(error => console.error('Error:', error));
 
-
+} catch (error) {}
