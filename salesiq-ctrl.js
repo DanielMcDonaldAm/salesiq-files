@@ -1,24 +1,22 @@
 try {
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM fully loaded and parsed');
-
-    // Check if we can select the logo container
-    var logoContainer = document.querySelector('.logo-container');
-
-    if (logoContainer) {
-        console.log('Logo container found');
-
+    try {
         // Create the new element
         var newElement = document.createElement('h1');
         newElement.className = 'bcheadb';
         newElement.textContent = 'betcart';
 
-        // Insert the new element inside the logo container
-        logoContainer.appendChild(newElement);
+        // Find the logo container
+        var logoContainer = document.querySelector('.logo-container');
 
-        console.log('New element added');
-    } else {
-        console.log('Logo container not found');
+        // Insert the new element inside the logo container
+        if (logoContainer) {
+            logoContainer.appendChild(newElement);
+        } else {
+            console.warn('Logo container not found.');
+        }
+    } catch (error) {
+        console.error('An error occurred while appending the new element:', error);
     }
 });
 
